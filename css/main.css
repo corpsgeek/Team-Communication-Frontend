@@ -1,0 +1,60 @@
+/** Blue #20629C
+Point blue(cursor) #183f5e
+Yellow: #f8d55d
+Red #e84546 **/
+.has-background-color{
+    color: #20629C;
+    background-color:#20629C;
+}
+#dropdown-menu > .dropdown-content{
+    color: #f8d55d;
+    background-color:#20629C;
+}
+.dropdown-content > .dropdown-item:hover{
+    color: #e84546;
+    background-color: #20629C;
+}
+#asideList:hover{
+    background-color: #20629C;
+}
+#asideList > a:hover{
+    background-color: #20629C;
+  
+}
+.has-background-color > .dropdown-item{
+    color: #f8d55d;
+    background-color:#20629C;
+}
+.media{
+    border: none;
+}
+.active-Name{
+    color: #f8d55d;
+}
+.has-background-connection{
+    background-color: #e84546;
+    color: #f8d55d;
+    max-width: 100%;
+}
+.asideCol{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.user-img{
+    border-radius: 100%;
+}
+.userInput > input{
+    background-color: #20629C;
+    color: #f8d55d;
+    margin-top:10px;
+    border-radius: 10px;
+}
+.userInput > input::placeholder{
+   color: #f8d55d;
+}
+.leftCol{
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+
+    background-color: #f8d55d;
+}

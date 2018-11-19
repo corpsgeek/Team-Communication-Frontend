@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DClient Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../jquery.slim.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bulma.min.css" />
+    <script src="js/fontAwesome.js"></script>
+    <script src="js/jquery.slim.min.js"></script>
+</head>
+        <body>
+          
+
+                <!-- START NAV -->
+                <!--
+        <nav id="navbar" class="navbar is-fixed-top" role="navigator" aria-label="main navigation">
+                <div class="navbar-brand">
+                  <a data-anchor="page-top" data-active="false" class="navbar-item" href="index.html">
+                    <img src="../images/logo.png" >
+      
+                  </a>
+      
+                  <a role="button"  data-target="navbarMenu" class="navbar-burger burger" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                  </a>
+                </div>
+      
+                <div id="navbarMenu" class="navbar-menu">
+                  <div class="navbar-end">
+                    <div class="navbar-item is-info">
+                        <a href="index.html" class="navbar-item">
+                            Home
+                          </a>
+                          
+                          <a href="../VideoTutorialsPage/VideoTutorialPage.html" class="navbar-item">
+                            Video Tutorials
+                            </a>
+            
+                          <a href="../studyMaterialsPage/studyPage.html" class="navbar-item">
+                            Study Materials
+                          </a>
+            
+                            
+                          <a class="navbar-item" href="ContactUs/contactUsPage.html">
+                              Online Test
+                            </a>
+            
+            
+                            <a class="navbar-item" href="../blogPage/blogPage.html">
+                                Blog
+                              </a>
+                            
+                      <div id="nav-buttons" class="buttons">
+                   
+                      <a class="button is-primary " href="signupPage/signup.html">
+                        <strong>Sign Out</strong>
+                      </a>
+                      
+                    </div>
+                    </div>
+                  </div>
+      
+                </div>
+      
+              </nav>
+                END NAV -->
+
+
+
+
+                <section class="section is-mobile is-desktop is-tablet">
+                    <div class="columns ">
+                        <div class="column asideCol is-3 has-background-color">
+                            <aside class="menu">
+                                <!--Top side of the aside-->
+                                <nav class="level  is-mobile is-desktop is-tablet">
+                                    <div class="level-left">
+                                                                                     
+                                <div class="dropdown is-mobile is-desktop is-tablet">
+                                     <div class="dropdown-trigger">
+                                        <a aria-haspopup="true" aria-controls="dropdown-menu">
+                                            <span style="font-size: 20px" class="active-Name">Bowen Group</span>
+                                   
+                                            <span class="icon is-small">
+                                                          <!--fontawesome required for the icon-->
+                                                    <i class="active-Name fa fa-angle-down" aria-hidden="true"></i>
+                                              </span>
+                                         </a><br />
+                                         <a>
+                                         <span  style="color:#f8d55d; " class="sub">
+                                             <span>
+                                                <i class="fa fa-circle" style="font-size: 10px; "></i>
+                                             </span>
+                                             Daniel Bowan.
+                                            </span>
+                                        </a>
+                                  </div>
+                             <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                                     <div class=" has-background-color dropdown-content">
+                                             <a href="#" class="dropdown-item">
+                                                   David Jones
+                                             </a>
+                                                 <hr class="dropdown-divider">
+                                             <a href="#" class="dropdown-item">
+                                                   Lorem ipsum.
+
+                                            </a>
+                                            <hr class="dropdown-divider">
+                                             <a href="#" class="dropdown-item">
+                                                    Daniel Bryan
+                                            <hr class="dropdown-divider">
+                                             <a href="#" class="dropdown-item">
+                                                    Jason Smith
+                                            </a>
+                                     </div>
+                             </div>
+                             
+                          </div>
+                         </div>
+                                <div class="level-right is-mobile is-desktop is-tablet">
+                                    <div class="level-item">
+                                        
+                                    <span class="icon is-medium is-mobile is-desktop is-tablet">
+                                           <!-- <i style="color:#f8d55d; " class="fa fa-bell"></i> -->
+                                        <!--Use the top one when notifications comes in-->
+                                           <i class="fa fa-bell-slash" style="color:#f8d55d; "></i>
+                                        </span>
+    
+                                    </div>
+                                    </div>
+                                </nav>
+                                <ul id="asideList" class="menu-list is-mobile is-desktop is-tablet">
+                                    <!--Item1-->
+                                        <a href="">
+                                            <span>
+                                                <i class="fa fa-envelope" style="color:#f8d55d; "></i>
+                                            </span>
+                                            <span  style="color:#f8d55d; ">Inbox</span>
+                                        </a>    
+                                        <!--item2-->
+                                        <a href="">
+                                                <span>
+                                                    <i class="fa fa-star" style="color:#f8d55d; "></i>
+                                                </span>
+                                                <span  style="color:#f8d55d; ">Starred</span>
+                                            </a>
+
+                                            <p  style="color:#f8d55d; " class="menu-label">
+                                                CHANNELS
+                                            </p>
+                                             <!--item3-->
+                                            <a href="">
+                                                  
+                                                    <span  style="color:#f8d55d; ">Design</span>
+                                                </a>
+
+                                                 <!--item4-->
+                                                <a href="">
+                                                  
+                                                        <span  style="color:#f8d55d; ">Engineering</span>
+                                                    </a>
+                                                
+                                                 <!--item5-->
+                                                    <a href="">
+                                                  
+                                                            <span  style="color:#f8d55d; ">Marketing</span>
+                                                        </a>
+                                                         <!--item6-->
+                                                        <a href="">
+                                                  
+                                                                <span  style="color:#f8d55d; ">Support</span>
+                                                            </a>
+                                                             <!--item7-->
+                                                            <a href="">
+                                                  
+                                                                    <span  style="color:#f8d55d; ">Sales</span>
+                                                                </a>
+
+                                                                 <!--item8-->
+                                                                <a href="">
+                                                                        <span>
+                                                                            <i class="fa fa-plus" style="color:#f8d55d; "></i>
+                                                                        </span>
+                                                                        <span  style="color:#f8d55d; ">New Channel</span>
+                                                                    </a>
+                                                                 <!--item9-->
+                                                                    <a href="">
+                                                                            <span>
+                                                                                <i class="fa fa-archive" style="color:#f8d55d; "></i>
+                                                                            </span>
+                                                                            <span  style="color:#f8d55d; ">Archived Channels</span>
+                                                                        </a>
+    
+                                </ul>
+                            </aside>
+                        </div>
+
+
+                        <div class="column is-9 leftCol is-mobile is-desktop is-tablet">
+                                <nav class="level is-mobile is-desktop is-tablet">
+                                    <div class="level-left" style="padding-left: 20px;">
+                                        <div class="level-item">
+                                            <p  class="title is-5" style="color:#20629C; ">Design</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="level-right" style="padding-right: 20px;">
+                                        <div class="level-item">
+                                            <span>
+                                                <i  style="color:#20629C; font-size: 20px;" class="fa fa-search"></i>
+                                            </span>
+
+                                    </div>
+                                        
+                                        <div class="level-item">
+                                                <span>
+                                                    <i  style="color:#20629C; font-size: 20px;" class="fa fa-arrow-left is-medium"></i>
+                                                </span>
+    
+                                        </div>
+                                        <div class="level-item">
+                                                <span>
+                                                    <i  style="color:#20629C; font-size: 20px;" class="fa fa-arrow-right is-medium"></i>
+                                                </span>
+    
+                                        </div>
+                                    
+                                    </div>
+                                </nav>
+                               
+                                <!--Email1-->
+                                <article class="media">
+                                        <figure class="media-left">
+                                          <p class="image is-64x64">
+                                            <img class="user-img" src="128x128.png">
+                                          </p>
+                                        </figure>
+                                        <div class="media-content">
+                                          <div class="content">
+                                            <p style="color:#20629C">
+                                              <strong style="color:#20629C; font-size: 15px;">Sarah Porter</strong> <small style="color:#20629C; font-size: 12px;">12:48 PM</small> 
+                                              <br>
+                                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+                                            </p>
+                                          </div>
+                                        </div>
+                                </article>
+
+                                <!--Email2-->
+                                <article class="media">
+                                        <figure class="media-left">
+                                          <p class="image is-64x64">
+                                            <img class="user-img" src="128x128.png">
+                                          </p>
+                                        </figure>
+                                        <div class="media-content">
+                                          <div class="content">
+                                            <p style="color:#20629C">
+                                              <strong style="color:#20629C; font-size: 15px;">Samantha Ramos</strong> <small style="color:#20629C; font-size: 12px;">12:52 PM</small> 
+                                              <br>
+                                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+                                            </p>
+                                          </div>
+                                        </div>
+                                </article>
+
+                                <!--Email3-->
+                                <article class="media">
+                                        <figure class="media-left">
+                                          <p class="image is-64x64">
+                                            <img class="user-img" src="128x128.png">
+                                          </p>
+                                        </figure>
+                                        <div class="media-content">
+                                          <div class="content">
+                                            <p style="color:#20629C">
+                                              <strong style="color:#20629C; font-size: 15px;">Tiffany Myers</strong> <small style="color:#20629C; font-size: 12px;">12:51 PM</small> 
+                                              <br>
+                                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+                                            </p>
+                                          </div>
+                                        </div>
+                                </article>
+
+                                <!--Email4-->
+                                <article class="media">
+                                        <figure class="media-left">
+                                          <p class="image is-64x64">
+                                            <img class="user-img" src="128x128.png">
+                                          </p>
+                                        </figure>
+                                        <div class="media-content">
+                                          <div class="content">
+                                            <p style="color:#20629C">
+                                              <strong style="color:#20629C; font-size: 15px;">Tiffany Myers</strong> <small style="color:#20629C; font-size: 12px;">12:51 PM</small> 
+                                              <br>
+                                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+                                            </p>
+                                          </div>
+                                        </div>
+                                </article>
+
+                                <!--Message field-->
+                              <div class="field is-grouped is-mobile is-desktop is-tablet">
+                                  <div class="control userInput has-icons-right is-expanded">
+                                      <input type="text" class="input" placeholder="Type your message" />
+                                      <span style="padding-right: 30px"  class="icon is-medium is-right">
+                                      <a style="margin-right: 10px; margin-top: auto; color: #f8d55d" class="is-mobile is-desktop is-tablet">  <i class="fa fa-at"></i></a>
+                                        <a style="margin-top:auto; color: #f8d55d" href="" class="is-mobile is-desktop is-tablet"><i class="fa fa-smile"></i> </a> 
+                                        
+                                      </span>
+                                  </div>
+                              </div>
+                    </div>
+                       </div>
+                    </div>
+                </section>
+                
+
+                <script async="" type="text/javascript" src="../js/bulma.js"></script>
+            
+            
+            
+            </body>
+     
+     
+        
+<script>
+     
+        let dropdown = document.querySelector('.dropdown');
+   dropdown.addEventListener('click', function(event) {
+     event.stopPropagation();
+     dropdown.classList.toggle('is-active');
+   });
+   </script>
+</html>
